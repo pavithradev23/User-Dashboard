@@ -38,15 +38,17 @@ Language	JavaScript (ES6+)
 Build Tool	Vite
 Hosting	Netlify
 
-## Screenshots
+###  Screenshots
 
-Login Page
+**Login Page**  
+![Login Page](./screenshots/image-2.png)  
 
+**Dashboard View**  
+![Dashboard View](./screenshots/image.png)  
 
-Dashboard View
+**Search & Filter**  
+![Search & Filter](./screenshots/image-4.png)
 
-
-Search & Filter
 
 
 
