@@ -1,28 +1,83 @@
-# User Management Dashboard
+🧑‍💼 User Management Dashboard
 
-## Setup Instructions
-1. Clone the repository
-2. Run `npm install`
-3. Run `npm run dev` to start the project
+A modern, responsive web application built with React (Vite) for managing users — featuring role-based filtering, search, and a simple login interface.
+Perfect for learning and demonstrating frontend development, React hooks, and component-driven design.
 
-## Tech Stack
-- React (Vite)
-- CSS
+🌐 Live Demo: User Management Dashboard
 
-## Features
-- Display list of users from mock JSON
-- Search users by name
-- Filter users by role
-- Responsive layout
+🚀 Features
 
-## Mock Data
-- Data is stored in `src/data/users.json`
+✅ User Authentication (mock login page)
+✅ Display and manage a list of users from mock JSON data
+✅ Search users by name
+✅ Filter users by role (Admin, Manager, Employee, etc.)
+✅ Responsive UI for both desktop and mobile
+✅ Clean and modular React components
+✅ Easy to extend with backend APIs in the future
 
-## Screenshots
-![Login page](<WhatsApp Image 2025-10-24 at 22.35.29_fd75624b.jpg>)
-![user management dashboard](<WhatsApp Image 2025-10-24 at 22.34.24_1a2acf54.jpg>)
-![search by role](image-1.png)
+🛠️ Tech Stack
+Category	Technology
+Frontend Framework	React (Vite)
+Styling	CSS
+Charts/Visualization	Recharts
+Language	JavaScript (ES6+)
+Build Tool	Vite
+Hosting	Netlify
+📁 Folder Structure
+user-dashboard/
+├── public/
+├── src/
+│   ├── components/        # Reusable UI components
+│   ├── data/              # Mock JSON data
+│   ├── pages/             # Page components (Login, Dashboard)
+│   ├── App.jsx
+│   ├── main.jsx
+│   └── App.css
+├── package.json
+└── vite.config.js
 
-## Deployment
-(Optional) Deploy on Netlify/Vercel for live demo
-🌐 **Live Demo:** [lustrous-llama-2d5045.netlify.app]
+⚙️ Setup Instructions
+1️⃣ Clone the repository
+git clone https://github.com/pavithradev23/2.git
+cd 2
+
+2️⃣ Install dependencies
+npm install
+
+3️⃣ Run the app locally
+npm run dev
+
+
+Then open: http://localhost:5173
+
+🧾 Mock Data
+
+The app uses static mock data located in:
+
+src/data/users.json
+
+
+
+
+🖼️ Screenshots
+Login Page	-(image-2.png)
+Dashboard View	-(image-3.png)
+Search & Filter-(image-4.png)
+
+	
+	
+🌐 Deployment
+
+This project is deployed on Netlify:
+👉 Live Demo -lustrous-llama-2d5045.netlify.app
+
+
+
+Run npm run build to generate a production build.
+
+
+
+👩‍💻 Author
+
+Pavithra
+Frontend Developer | Passionate about UI/UX, React, and Web Technologies
