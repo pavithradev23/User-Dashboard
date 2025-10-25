@@ -60,9 +60,9 @@ src/data/users.json
 
 
 🖼️ Screenshots
-Login Page	-user-dashboard\screenshots\image-2.png
-Dashboard View	-user-dashboard\screenshots\image.png
-Search & Filter-user-dashboard\screenshots\image-4.png
+Login Page	-./screenshots/image-2.png
+Dashboard View	-./screenshots/image.png
+Search & Filter-./screenshots/image-4.png
 
 	
 	
