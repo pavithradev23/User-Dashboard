@@ -59,10 +59,17 @@ src/data/users.json
 
 
 
-🖼️ Screenshots
-Login Page	-./screenshots/image-2.png
-Dashboard View	-./screenshots/image.png
-Search & Filter-./screenshots/image-4.png
+### 🖼️ Screenshots
+
+**Login Page**  
+![Login Page](./screenshots/image-2.png)  
+
+**Dashboard View**  
+![Dashboard View](./screenshots/image.png)  
+
+**Search & Filter**  
+![Search & Filter](./screenshots/image-4.png)
+
 
 	
 	
