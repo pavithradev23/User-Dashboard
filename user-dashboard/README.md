@@ -1,21 +1,35 @@
-🧑‍💼 User Management Dashboard
+## User Management Dashboard
 
-A modern, responsive web application built with React (Vite) for managing users — featuring role-based filtering, search, and a simple login interface.
-Perfect for learning and demonstrating frontend development, React hooks, and component-driven design.
+A modern, responsive frontend application built with React (Vite) for managing users.
+Features role-based filtering, search, and a simple login interface. Ideal for demonstrating frontend development, React hooks, and component-driven design.
 
-🌐 Live Demo: User Management Dashboard
+## Live Demo: User Management Dashboard
 
-🚀 Features
+## Setup Steps
 
-✅ User Authentication (mock login page)
-✅ Display and manage a list of users from mock JSON data
-✅ Search users by name
-✅ Filter users by role (Admin, Manager, Employee, etc.)
-✅ Responsive UI for both desktop and mobile
-✅ Clean and modular React components
-✅ Easy to extend with backend APIs in the future
+1️.Clone the repository
 
-🛠️ Tech Stack
+git clone https://github.com/pavithradev23/2.git
+cd 2
+
+
+2️.Install dependencies
+
+npm install
+
+
+3️.Run the app locally
+
+npm run dev
+
+
+Then open: http://localhost:5173
+
+4️. Build for production (optional)
+
+npm run build
+
+## Tech Stack
 Category	Technology
 Frontend Framework	React (Vite)
 Styling	CSS
@@ -23,68 +37,57 @@ Charts/Visualization	Recharts
 Language	JavaScript (ES6+)
 Build Tool	Vite
 Hosting	Netlify
-📁 Folder Structure
-user-dashboard/
-├── public/
-├── src/
-│   ├── components/        # Reusable UI components
-│   ├── data/              # Mock JSON data
-│   ├── pages/             # Page components (Login, Dashboard)
-│   ├── App.jsx
-│   ├── main.jsx
-│   └── App.css
-├── package.json
-└── vite.config.js
 
-⚙️ Setup Instructions
-1️⃣ Clone the repository
-git clone https://github.com/pavithradev23/2.git
-cd 2
+## Screenshots
 
-2️⃣ Install dependencies
-npm install
-
-3️⃣ Run the app locally
-npm run dev
+Login Page
 
 
-Then open: http://localhost:5173
+Dashboard View
 
-🧾 Mock Data
 
-The app uses static mock data located in:
+Search & Filter
+
+
+
+## Mock Data
+
+The app uses static mock data located at:
 
 src/data/users.json
 
+💡 Assumptions & Bonus Features
+
+##Assumptions:
+
+All user data is stored locally (mock JSON).
+
+Roles include Admin, Manager, Employee, etc.
+
+Login is mocked for demo purposes.
 
 
+##Bonus Features Implemented:
 
-### 🖼️ Screenshots
+Responsive layout for mobile and desktop.
 
-**Login Page**  
-![Login Page](./screenshots/image-2.png)  
+Role-based filtering and search functionality.
 
-**Dashboard View**  
-![Dashboard View](./screenshots/image.png)  
+Simple authentication (mock login).
 
-**Search & Filter**  
-![Search & Filter](./screenshots/image-4.png)
+Clean and modular React component structure.
 
 
-	
-	
-🌐 Deployment
+Alternatively, open the Netlify demo with auto-login:
+https://lustrous-llama-2d5045.netlify.app?demo=true
+
+## Deployment
 
 This project is deployed on Netlify:
-👉 Live Demo -lustrous-llama-2d5045.netlify.app
+Live Demo
 
-
-
-Run npm run build to generate a production build.
-
-
-
-👩‍💻 Author
+## Author
 
 Pavithra
 Frontend Developer | Passionate about UI/UX, React, and Web Technologies
+https://github.com/pavithradev23/User-Dashboard
